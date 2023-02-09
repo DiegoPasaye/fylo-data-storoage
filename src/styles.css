@@ -153,18 +153,18 @@ main{
         height: 25px;
     }
     .rest-bar{
-        height: 25px;
+        height: 30px;
     }
     .circle-bar{
-        height: 25px;
-        width: 25px;
+        height: 30px;
+        width: 30px;
         border-radius: 25px;
         margin-left: 32.7%;
     }
     .storoage-left{
         left: 40%;
         border-radius: 10px;
-        top: 70%;
+        top: 72%;
     }
     .storoage-left::after{
         display: none;
@@ -175,7 +175,7 @@ main{
         padding: 40px 0 30px 0;
     }
     .storoage-left{
-        left: 37%;
+        left: 36%;
         top: 75%;
     }
     .first-box{
@@ -185,7 +185,7 @@ main{
         height: 25vh;
     }
 }
-@media (max-height:1000px){
+@media (max-height:1000px) and (min-width: 1000px){
     .first-box{
         height: 300px;
     }
