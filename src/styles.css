@@ -60,7 +60,7 @@ main{
 }
 .bar{
     width: 90%;
-    height: 30px;
+    min-height: 30px;
     background: hsl(229, 57%, 11%, 65%);
     border-radius: 15px;
     border: 2px solid black;
@@ -183,5 +183,17 @@ main{
     }
     .second-box{
         height: 25vh;
+    }
+}
+@media (max-height:1000px){
+    .first-box{
+        height: 300px;
+    }
+    .second-box{
+        height: 240px;
+        margin-top: 60px;
+    }
+    .storoage-left{
+        top: 25%;
     }
 }
